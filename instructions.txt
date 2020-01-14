@@ -1,0 +1,9 @@
+1)Firstly, you need to navigate to the folder containing the java
+source code from command line.
+
+2)After you get into the directory containing the java source code, enter the command "dir /s /B *.java > sources.txt". This command will store the directories of all the java source code inside sources.txt.
+
+3)To compile the java source code all at once, enter the command "javac @sources.txt".
+
+4) Finally, simply enter "java PerilandaDriver" to run the program.
+
